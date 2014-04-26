@@ -1,0 +1,17 @@
+--> Process each customer's transaction history.
+
+--> Extract agreggates, variance, number of changes from the transaction history, 
+
+--> Create a new dataset with one entry per customer and new features that express the transaction history information.
+
+--> Find feature significance by:
+	--> get covariance table.
+	--> do feature exclusion from model creation.
+
+
+--> Predict values of features that are significant and are not given in the test set. (ex. Predict final value, price variance etc.)
+
+--> Predict final set of options.
+
+--> Predict whether we can use the last product given in the test set as the final purchase or not(??????)
+
